@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">BorgerKongDemo</string>
+
+
+    <!--
+      EMAIL format:
+
+      price
+       name
+      cost
+       description
+    -->
+
+    <string-array name="food_1">
+        <item>April 15 2003</item>
+        <item>12</item>
+        <item>Shredded meat</item>
+        <item>The shredded meat rolled up by pancakes is very delicious.</item>
+    </string-array>
+
+    <string-array name="foood_2">
+        <item>September 15 2019</item>
+        <item>20</item>
+        <item>Roast Chicken</item>
+        <item>The roasted chicken adopts Chinese style flavor, combines our special cooking method, and scientifically matches with nutrition materials.</item>
+    </string-array>
+
+    <string-array name="food_3">
+        <item>July 10 2015</item>
+        <item>3</item>
+        <item>Egg</item>
+        <item>Eggs are always the best choice for side dishes</item>
+    </string-array>
+
+    <string-array name="food_4">
+        <item>February 22 1788</item>
+        <item>39</item>
+        <item>single meal</item>
+        <item>The single meal includes coke, French fries, hamburgers and other food</item>
+    </string-array>
+
+    <string-array name="food_5">
+        <item>December 3 1932</item>
+        <item>59</item>
+        <item>Double food</item>
+        <item>A double meal is twice the size of a single meal, and there is an extra coke</item>
+    </string-array>
+
+    <string-array name="food_6">
+        <item>February 5 1797</item>
+        <item>9</item>
+        <item>Fries box</item>
+        <item>French fries box, which provides 4 kinds of sauces for big brands, can let you have a food with different taste at the same time</item>
+    </string-array>
+
+    <string-array name="food_7">
+        <item>September 25 1903</item>
+        <item>48</item>
+        <item>Coffee meal</item>
+        <item>Coffee meal is a new western breakfast, including coffee, hot dog, corn, chicken and other food</item>
+    </string-array>
+
+    <string-array name="food_8">
+        <item>October 12 1965</item>
+        <item>49</item>
+        <item>Black pepper steak</item>
+        <item>Black pepper steak, low price, high nutrition</item>
+    </string-array>
+
+    <string-array name="food_9">
+        <item>April 5 2019</item>
+        <item>29</item>
+        <item>Chicken leg salad</item>
+        <item>Chicken leg salad, including chicken leg, vegetables, and salad, rich in vitamins, delicious and cheap.</item>
+    </string-array>
+
+    <string-array name="food_10">
+        <item>June 4 1940</item>
+        <item>32</item>
+        <item>Hamburg lunch</item>
+        <item>Hamburger lunch, big hamburger, coke, chicken wings, and egg tower, will definitely make you full</item>
+    </string-array>
+
+    <string-array name="food_11">
+        <item>April 3 1968</item>
+        <item>23</item>
+        <item>Chocolate children meal</item>
+        <item>Golden Chicken \(5 pieces\) + 1 chocolate flavored waffle + 1 cup of sprouted bubble milk</item>
+    </string-array>
+
+    <string-array name="food_12">
+        <item>Nov 16 2013</item>
+        <item>19</item>
+        <item>Latte</item>
+        <item>Latte is more beautiful. Successful people like it</item>
+    </string-array>
+
+    <string-array name="food_13">
+        <item>June 3 2018</item>
+        <item>15</item>
+        <item>Pan Ni Ni</item>
+        <item>Panini adopts hot pressing technology, double fragrant and hot!</item>
+    </string-array>
+
+    <string-array name="food_14">
+        <item>May 2 1956</item>
+        <item>16</item>
+        <item>Chinese style braised rice</item>
+        <item>Package includes: 1 small table stewed meat with egg meal + 2 New Orleans grilled wings or 1 finger sucking chicken + Pepsi (middle)</item>
+    </string-array>
+
+    <string-array name="food_15">
+        <item>November 1 1987</item>
+        <item>11</item>
+        <item>fruit juice</item>
+        <item>Juice as a single product, let you choose more freely</item>
+    </string-array>
+
+
+</resources>

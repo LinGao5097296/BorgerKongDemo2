@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_emaildetails">
+    <ImageView
+        android:id="@+id/item_iv_cover"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="4dp"/>
+    <TextView
+        android:id="@+id/et_new_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:visibility="gone"
+        android:textSize="18sp"
+
+        android:padding="@dimen/space_16dp"/>
+
+    <TextView
+        android:id="@+id/et_new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_toRightOf="@+id/item_iv_cover"
+        android:hint="title"
+        android:paddingTop="@dimen/space_20dp"
+        android:layout_alignTop="@+id/item_iv_cover"
+        android:textSize="@dimen/space_20dp"
+       />
+
+    <TextView
+        android:id="@+id/tv_new_desc"
+        android:layout_toRightOf="@+id/item_iv_cover"
+        android:layout_below="@+id/et_new_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:padding="@dimen/space_16dp"
+        android:visibility="gone"
+        tools:text="author"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_16dp"
+        android:id="@+id/ll_price"
+        android:layout_below="@+id/tv_new_desc"
+        android:layout_toRightOf="@+id/item_iv_cover" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ "/>
+    <TextView
+        android:id="@+id/tv_new_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+        tools:text="0"/>
+
+    </LinearLayout>
+    <com.demo.borgerkongdemo.widget.AmountView
+        android:id="@+id/amount_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_price"
+        android:layout_toRightOf="@+id/item_iv_cover"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        app:btnTextSize="14sp"
+        app:btnWidth="36dp"
+        app:tvWidth="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_add"
+        android:text="Add"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/ll_price"
+        android:layout_toRightOf="@+id/amount_view"/>
+    <TextView
+        android:id="@+id/et_new_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/item_iv_cover"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"/>
+
+</RelativeLayout>
